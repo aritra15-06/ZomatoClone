@@ -746,7 +746,7 @@ body {
     }
   
     /* Remove edge margins/padding for a full-width layout */
-    .main_5th,
+    
     .main_4th,
     .footer_1st,
     .footer_2nd,
@@ -756,6 +756,10 @@ body {
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
+    }
+    .main_5th{
+        margin-left: 10px;
+        margin-right: 10px;
     }
   
     /* Additional container adjustments if needed */
